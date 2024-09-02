@@ -9,13 +9,16 @@ function App() {
   return (
     <>
       <div>
-        <div>
+        <header>
+        <div className='contendor-botones'>
           <button>iniciar sesion</button> 
           <button>inicio</button>
           <button>contactos</button>
           <button>sobre nosotros</button>
           <button>descargas</button>
         </div>
+        </header>
+        
       </div>
     </>
   )
